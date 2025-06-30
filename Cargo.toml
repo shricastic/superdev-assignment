@@ -1,0 +1,16 @@
+[package]
+name = "superdev-assignment"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+env_logger = "0.11.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+solana-client = "1.18.11"
+solana-sdk = "1.18.11"
+bs58 = "0.4"
+base64 = "0.21"
+spl-token = "4.0"
+spl-associated-token-account = "2.2.0"
